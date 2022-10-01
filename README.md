@@ -23,8 +23,6 @@ Syncs extensions and settings across GNOME installations, including:
 - Via the [Extension Manger](https://github.com/mjakeman/extension-manager) "Browse Extensions" tab (just search for "`extension sync`").
 - Build from source (steps 1-5 of the [Development steps](#steps) section below)
 
----
-
 ## GUI Usage
 
 ### Providers
@@ -93,8 +91,6 @@ Basic extension settings that control how the extension behaves more broadly wit
 - Show tray icon
 - Show notifications
 
----
-
 ## CLI Usage
 
 You can trigger upload download operations using `busctl`:
@@ -103,8 +99,6 @@ You can trigger upload download operations using `busctl`:
 busctl --user call org.gnome.Shell /io/elhan/ExtensionsSync io.elhan.ExtensionsSync save # uploads to server
 busctl --user call org.gnome.Shell /io/elhan/ExtensionsSync io.elhan.ExtensionsSync read # downloads to pc
 ```
-
----
 
 ## Development
 
